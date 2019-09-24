@@ -1,0 +1,118 @@
+.calendar{
+    height: 100%;
+    background: #30375b;
+}
+.calendar .top{
+    width: 100%;
+    height: 4.68rem;
+    background: url(../../assets/images/calendar/bg.png) no-repeat left top;
+    background-size: 100%;
+    color: #fff;
+    font-size: .32rem;
+    padding-top: .6rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.calendar .top .title{
+    font-size: .42rem;
+    text-align: center;
+}
+.calendar .top .rule{
+    position: absolute;
+    top: .7rem;
+    right: .4rem;
+}
+.calendar .top .prompt{
+    font-size: .56rem;
+    margin-left: .4rem;
+    margin-top: .1rem;
+}
+.calendar .top .prompt div{
+    font-size: .24rem;
+    margin-top: .1rem;
+}
+.calendar .top .prompt div span{
+    color: #fbca00;
+}
+.calendar .top .prompt div span:last-child{
+    font-size: .28rem;
+}
+/* 签到规则 */
+.mint-popup{
+    border-radius: .2rem;
+}
+.calendar .rule_detail{
+    position: relative;
+    background: none;
+}
+.calendar .rule_detail .text_detail{
+    width: 5.56rem;
+    height: 7.43rem;
+    background: url(../images/calendar/rule.png) no-repeat left top;
+    background-size: 100%;
+    font-size: .26rem;
+    padding: 0 .3rem;
+    padding-top: 2.34rem;
+    box-sizing: border-box;
+}
+.calendar .rule_detail .text_detail p{
+    margin-bottom: .3rem;
+}
+.calendar .rule_detail .off{
+    position: absolute;
+    bottom: -1.2rem;
+    left: 50%;
+    margin-left: -.245rem;
+    width:.49rem;
+    height: .49rem;
+    background: url(../images/calendar/off.png) no-repeat left top;
+    background-size: 100%;
+}
+/* 签到成功 */
+.calendar .signIn .signIn_detail{
+    width: 4.82rem;
+    height: 6.14rem;
+    background: url(../images/calendar/sign_in.png) no-repeat left top;
+    background-size: 100%;
+    text-align: center;
+    padding-top: .4rem;
+    box-sizing: border-box;
+    font-size: .28rem;
+}
+.calendar .signIn .signIn_detail p{
+    color: #fff;
+}
+.calendar .signIn .signIn_detail p span{
+    font-size: 1.1rem;
+    color: #fefefe;
+    margin-right: .1rem;
+}
+.calendar .signIn .signIn_detail .success{
+    font-size: .36rem;
+    margin-top: 1.4rem;
+}
+.calendar .signIn .signIn_detail .more{
+    width: 3.2rem;
+	height: .8rem;
+	background: #30375b;
+    border-radius: .4rem;
+    line-height: .8rem;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: .4rem;
+    margin-bottom: .26rem;
+}
+.calendar .signIn .signIn_detail span{
+    color: #999;
+}
+.calendar .signIn .delete{
+    position: absolute;
+    bottom: -1.2rem;
+    left: 50%;
+    margin-left: -.245rem;
+    width:.49rem;
+    height: .49rem;
+    background: url(../images/calendar/off.png) no-repeat left top;
+    background-size: 100%;
+}

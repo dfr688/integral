@@ -1,0 +1,106 @@
+.withdraw{
+    height: 100%;
+}
+.withdraw .current_integral{
+    width: 6.7rem;
+    height: 2rem;
+    background: #3d466c;
+    box-shadow: 0px 3px 12px 1px rgba(43, 50, 84, 0.32);
+    border-radius: .1rem;
+    margin: 0 auto;
+    color: #f1f1f1;
+    font-size: .3rem;
+    padding-top: .4rem;
+    padding-left: .4rem;
+    box-sizing: border-box;
+}
+.withdraw .current_integral div{
+    font-size: .6rem;
+}
+.withdraw .current_integral div span{
+    font-size: .24rem;
+    color: #fff;
+    margin-left: .1rem;
+}
+.withdraw .option{
+    margin: 0 .4rem;
+    margin-top: .36rem;
+}
+.withdraw .option p{
+    font-size: .32rem;
+    margin-bottom: .26rem;
+}
+.withdraw .option ul{
+    display: flex;
+}
+.withdraw .option ul li{
+    width: 2.1rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+	border-radius: .1rem;
+    border: solid 1px #e5e5e5;
+    font-size: .28rem;
+    padding-left: .2rem;
+    box-sizing: border-box;
+    margin-right: .2rem;
+}
+.withdraw .option ul li.active{
+    background: url(../images/my/checked.png) no-repeat left top;
+    background-size: 100%;
+    border: none;
+}
+.withdraw .option ul li i{
+    display: inline-block;
+    margin-right: .2rem;
+    margin-bottom: -.12rem;
+}
+.withdraw .option ul .alipay i{
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/my/alipay.png) no-repeat left top;
+    background-size: 100%;
+}
+.withdraw .option ul .wechat_payment i{
+    width: .48rem;
+    height: .48rem;
+    background: url(../images/my/wechat_payment.png) no-repeat left top;
+    background-size: 100%;
+}
+.withdraw .option .account{
+    font-size: .3rem;
+    margin-top: .5rem;
+}
+.withdraw .option .account input{
+    font-size: .3rem;
+}
+.withdraw .how_many{
+    margin-top: .5rem;
+}
+.withdraw .how_many ul li{
+    line-height: .4rem;
+    text-align: center;
+    padding-left: 0;
+    padding-top: .2rem;
+}
+.withdraw .how_many ul li:last-child{
+    margin-right: 0;
+}
+.withdraw .how_many ul li p{
+    font-size: .36rem;
+    margin-bottom: -.01rem;
+}
+.withdraw .how_many ul li span{
+    font-size: .2rem;
+    color: #999;
+    display: inline-block;
+    width: 2.1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+.withdraw .btn{
+    width: 5.8rem;
+    height: .8rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}

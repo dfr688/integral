@@ -1,0 +1,149 @@
+.detail{
+    height: 100%;
+}
+.detail .top{
+    padding-top: .6rem;
+}
+.detail .top .back{
+    width: .5rem;
+    height: .5rem;
+    background: url(../../assets/images/public/back.png) no-repeat left top;
+    background-size: 100%;
+    margin-left: .4rem;
+}
+.detail .top .integral_tip{
+    font-size: .28rem;
+    color: #db2315;
+    background-color: #eee;
+    width: 100%;
+    height: .55rem;
+    line-height: .55rem;
+    text-align: center;
+    margin-top: .2rem;
+}
+.detail .content{
+    width: 100%;
+    padding: 0 .4rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: .3rem;
+}
+.detail .content .title{
+    font-size: .44rem;
+    margin: 0 .5rem;
+    text-align: center;
+    margin-top: .6rem; 
+    margin-bottom: .4rem;
+}
+/* 分享 */
+.detail .share{
+    margin: 0 .4rem;
+    margin-bottom: .6rem;
+    padding-top: .4rem;
+    border-top: 1px solid #f1f1f1;
+}
+.detail .share .title{
+    font-size: .36rem;
+    text-align: center;
+    margin-bottom: .6rem;
+}
+.detail .share ul{
+    display: flex;
+}
+.detail .share ul li{
+    flex: 1;
+    color: #30375b;
+    font-size: .28rem;
+    text-align: center;
+}
+.detail .share ul li span{
+    display: inline-block;
+    width: .88rem;
+    height: .88rem;
+}
+.detail .share ul li .weibo{
+    background: url(../../assets/images/home/sign_01.png) no-repeat left top;
+    background-size: 100%;
+}
+ .detail .share ul li .qq{
+    background: url(../../assets/images/home/sign_02.png) no-repeat left top;
+    background-size: 100%;
+}
+ .detail .share ul li .wechat{
+    background: url(../../assets/images/home/sign_03.png) no-repeat left top;
+    background-size: 100%;
+}
+/* 分享弹框 */
+.detail .mint-popup-bottom{
+    width: 100%;
+    padding-top: .4rem;
+    box-sizing: border-box;
+}
+.detail .shareDetail{
+    width: 100%;
+    font-size: .3rem;
+    text-align: center;
+}
+.detail .shareDetail p{
+    margin-bottom: .2rem;
+}
+.detail .shareDetail ul{
+    display: flex;
+    margin-top: .2rem;
+    border-top: 1px solid #f1f1f1;
+}
+.detail .shareDetail ul li{
+    flex: 1;
+    padding: .2rem 0;
+}
+.detail .shareDetail ul li:first-child{
+    border-right: 1px solid #f1f1f1;
+}
+/* 阅读积分 */
+.detail .signIn .signIn_detail{
+    width: 4.82rem;
+    height: 6.14rem;
+    background: url(../images/calendar/sign_in.png) no-repeat left top;
+    background-size: 100%;
+    text-align: center;
+    padding-top: .4rem;
+    box-sizing: border-box;
+    font-size: .28rem;
+}
+.detail .signIn .signIn_detail p{
+    color: #fff;
+}
+.detail .signIn .signIn_detail p span{
+    font-size: 1.1rem;
+    color: #fefefe;
+    margin-right: .1rem;
+}
+.detail .signIn .signIn_detail .success{
+    font-size: .36rem;
+    margin-top: 1.4rem;
+}
+.detail .signIn .signIn_detail .more{
+    width: 3.2rem;
+    height: .8rem;
+    background: #30375b;
+    border-radius: .4rem;
+    line-height: .8rem;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: .4rem;
+    margin-bottom: .26rem;
+}
+.detail .signIn .signIn_detail span{
+    color: #999;
+}
+.detail .signIn .delete{
+    position: absolute;
+    bottom: -1.2rem;
+    left: 50%;
+    margin-left: -.245rem;
+    width:.49rem;
+    height: .49rem;
+    background: url(../images/calendar/off.png) no-repeat left top;
+    background-size: 100%;
+}

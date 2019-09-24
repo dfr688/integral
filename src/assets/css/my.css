@@ -1,0 +1,141 @@
+.my{
+    height: 100%;
+    background: #30375b;
+}
+.my .title{
+    font-size: .42rem;
+    color: #fff;
+    text-align: center;
+    padding-top: .6rem;
+}
+.my .person_info{
+    display: flex;
+    margin-top: .3rem;
+}
+.my .person_info div{
+    flex: 1;
+    text-align: center;
+    height: 1.46rem;
+    padding-top: .1rem;
+    box-sizing: border-box;
+}
+.my .person_info div span{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: .6rem;
+    background: #3d466c;
+}
+.my .person_info p{
+    flex: 2.7;
+    color: #f1f1f1;
+    font-size: .3rem;
+    height: 1.46rem;
+    line-height: 1.46rem;
+}
+.my .account_info{
+    width: 6.7rem;
+	height: 3.3rem;
+	background: #3d466c;
+	box-shadow: 0px 3px 12px 1px rgba(43, 50, 84, 0.32);
+    border-radius: .1rem;
+    margin: 0 auto;
+    margin-top: .3rem;
+    margin-bottom: .6rem;
+    padding: 0 .3rem;
+    box-sizing: border-box;
+}
+.my .account_info ul{
+    display: flex;
+    border-bottom: 1px solid #30375b;
+    padding-top: .4rem;
+    padding-bottom: .3rem;
+}
+.my .account_info ul li{
+    flex: 1;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: .3rem;
+}
+.my .account_info ul li:last-child{
+    flex: 1.2;
+}
+.my .account_info ul li p{
+    font-size: .42rem;
+}
+.my .account_info ul li div{
+    margin-top: .1rem;
+    margin-bottom: .2rem;
+}
+.my .account_info ul li span{
+    display: inline-block;
+    width: 1.4rem;
+    height: .44rem;
+    line-height: .44rem;
+	background: #fff;
+    border-radius: .22rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #333;
+}
+.my .account_info ul li span.last{
+    background: #30375b;
+    box-shadow: 0px 3px 1px 0px rgba(43, 50, 84, 0.44);
+    color: #f1f1f1;
+}
+.my .account_info .explain{
+    font-size: .3rem;
+    color: #f1f1f1;
+    margin-top: .24rem;
+}
+.my .list ul{
+    margin: 0 .4rem;
+}
+.my .list ul li{
+    display: flex;
+    font-size: .32rem;
+    color: #fff;
+    margin: .4rem 0;
+}
+.my .list ul li p{
+    flex: 1;
+}
+.my .list ul li div{
+    flex: 1;
+    text-align: right;
+    padding-top: .08rem;
+    height: .45rem;
+    box-sizing: border-box;
+}
+.my .list ul li div span{
+    display: inline-block;
+}
+.my .list ul .integral_details div span{
+    width: .31rem;
+    height: .41rem;
+    background: url(../images/my/icon_1.png) no-repeat left top;
+    background-size: 100%;
+}
+.my .list ul .suggest div span{
+    width: .41rem;
+    height: .43rem;
+    background: url(../images/my/icon_2.png) no-repeat left top;
+    background-size: 100%;
+    margin-right: -.06rem;
+}
+.my .list ul .user_protocol div span{
+    width: .32rem;
+    height: .4rem;
+    background: url(../images/my/icon_3.png) no-repeat left top;
+    background-size: 100%;
+}
+.my .signOut{
+    width: 5.7rem;
+    height: .8rem;
+    margin: 0 auto;
+    margin-top: .6rem;
+}
+.mint-button--primary{
+    background: #fff;
+    color: #333;
+}
